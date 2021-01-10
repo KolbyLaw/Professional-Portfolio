@@ -4,15 +4,186 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+
+    <script src="./assets/JS/script.js" defer></script>
+
     <title>KL - My Portfolio</title>
+
 </head>
 
 
 <body>
 
+    <!--Hero Section START-->
+    <section class="hero" >
+        <div class="herotag">
+            <h2>Kolby Law - Full Stack Developer</h2>
+        </div>
+
+    </section>
+    <!--Hero Section END-->
+
+    
+    <!--About Section START-->
+    <section class="container">
+        <div id="about-me">
+            <h3 class="section-title">- About -</h3>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col s12 m12 l3">
+                <img src="assets/images/Kolby Law BW.jpg" class="responsive-img center-align">
+            </div>
+
+            <div class="col s12 m12 l9">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+                 </p>
+            </div>
+        </div>
+
+    </section>
+    <!--About Section END-->
+
+    <!--Work Section START-->
+    <section class="container">
+
+        <br><br><br>
+        <div id="my-projects">
+            <h3 class="section-title">- Work -</h3>
+        </div>
+        <br>
+
+        <div class ="row">
+
+            <div class="col s12 m6 l3">
+                <div class="card medium">
+                    <div class ="card-image">
+                        <img src="assets/images/whattowatch.png">
+                    </div>
+                    <div class ="card-content center-align">
+                        <h5>What to Watch</h5>
+                        <h6>Group Project</h6>
+                        <p>Utilizes HTML, CSS, JS, Materialize, as well as APIs from TMDB and YouTube.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/KolbyLaw/What-to-Watch">Project Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card medium">
+                    <div class ="card-image">
+                        <img src="assets/images/weatherdash.png">
+                    </div>
+                    <div class ="card-content center-align">
+                        <h5>Weather Dashboard</h5>
+                        <h6>Challenge Assignment</h6>
+                        <p>Utilizes HTML, CSS, JS, BootStrap, JQuery, and the OpenWeather API.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/KolbyLaw/WeatherDashboard">Project Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card medium">
+                    <div class ="card-image">
+                        <img src="assets/images/workday2.png">
+                    </div>
+                    <div class ="card-content center-align">
+                        <h5>Workday Scheduler</h5>
+                        <h6>Challenge Assignment</h6>
+                        <p>Utilizes HTML, CSS, JS, BootStrap, JQuery, and Moment.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/KolbyLaw/Work-Day-Scheduler">Project Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card medium">
+                    <div class ="card-image">
+                        <img src="assets/images/codequiz.png">
+                    </div>
+                    <div class ="card-content center-align">
+                        <h5>Code Quiz</h5>
+                        <h6>Challenge Assignment</h6>
+                        <p>Utilizes HTML, CSS, and JS.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/KolbyLaw/CodeQuizJS">Project Repository</a>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+
+    </section>
+    <!--Work Section END-->
+
+
+    <!--Contact Section START-->
+    <br><br><br>
+    <footer class="container center-align">
+        <h3 class="section-title">- Contact -</h3><br>
+        <div class="row">
+            <div class="col s6 m3">
+                <p><i class="fas fa-phone-square-alt contact-icons"></i></p>
+                <a href="tel:801-830-7646" class="contact-text">(801)830-7646</a>
+            </div>
+
+            <div class="col s6 m3">
+                <p><i class="far fa-envelope-open contact-icons"></i></p>
+                <a href="mailto:kolbytlaw@gmail.com" class="contact-text">kolbytlaw@gmail.com</a>
+            </div>
+
+            <div class="col s6 m3">
+                <p><i class="fab fa-github contact-icons"></i></p>
+                <a href="https://github.com/KolbyLaw/" class="contact-text">GitHub Repository</a>
+            </div>
+
+            <div class="col s6 m3">
+                <p><i class="fab fa-linkedin contact-icons"></i></p>
+                <a href="linkedin.com/in/kolby-law-933615173/" class="contact-text">LinkedIn Profile</a>
+            </div>
+        </div>
+    </footer>
+   <!--Contact Section END-->
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!--Header/Navigation Section START-->
-    <header>
+    <!-- <header>
         <h1>
             <a href="#">KOLBY LAW</a>
         </h1>
@@ -30,43 +201,30 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <!--Header/Navigation Section END-->
 
 
-    <!--Hero Section START-->
-    <section class="hero" >
-        <div class="herotag">
-            <h2>Developer Who Can't Figure Out CSS Grid</h2>
-        </div>
 
-    </section>
-    <!--Hero Section END-->
+<!-- <section id="about-me"> 
+    <div class="content-grid1">
+        <h3 class="section-title border">About</h3>
 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+           <br>
+           <br>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
+        </p>
+    
+        <img src="assets/images/Kolby Law BW.jpg" class="imgstandard">
+    </div>
 
-    <!--About Me Section START-->
-    <section id="about-me"> 
-        <div class="content-grid1">
-            <h3 class="section-title border">About Me</h3>
+</section> -->
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
-               <br>
-               <br>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae, illum explicabo est aliquam ducimus pariatur voluptatum perferendis rerum facilis vero eius autem molestiae beatae recusandae, doloribus magnam, suscipit minima.
-            </p>
-        
-            <img src="assets/images/Kolby Law BW.jpg" class="imgstandard">
-        </div>
-
-    </section>
-    <!--About Me Section END-->
-
-
-    <!--My Projects Section START-->
-    <section id="my-projects"> 
+    <!-- <section id="my-projects"> 
         <div class="content-grid2">
             <h3 class="section-title border">My Projects</h3>
 
@@ -79,23 +237,4 @@
                 <div class="imgstandard"><img src="assets/images/placeholder.png"></div>        
             </div>
         </div>
-    </section>    
-    <!--My Projects Section END-->
-
-
-    <!--Contact Me Section START-->
-    <section id="contact-me"> 
-        <div class="content-grid3">
-            <h3 class="section-title border">Contact Me</h3>
-                <ul>
-                    <li>Phone: <a href="tel:801-830-7646">(801)830-7646</a></li>
-                    <li>Email: <a href="mailto:kolbytlaw@gmail.com">kolbytlaw@gmail.com</a></li>
-                    <li><a href="https://github.com/KolbyLaw/">GitHub</a></li>
-                    <li><a href="linkedin.com/in/kolby-law-933615173/">LinkedIn</a></li>
-                </ul>
-        </div>
-    </section>    
-    <!--Contact Me Section END-->
-
-</body>
-
+    </section>     -->

@@ -8,5 +8,11 @@ Worked on the initial draft of my Professional Portfolio:
 - Basic CSS edits
 - STUCK ON CSSGRID!
 
+12/8/21 Update:
+- Added Materialize and FontAwesome
+- Updated layout
+- Added Group Project card
+
 #### Initial Draft:
-![image](https://user-images.githubusercontent.com/73139141/98498573-5a972300-2204-11eb-9e42-d36ad6a21bf1.png)
+![image](https://user-images.githubusercontent.com/73139141/104137683-d83df300-535b-11eb-975c-a30bec442bea.png)
+
